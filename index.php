@@ -65,7 +65,7 @@
 <body>
     <div class="container">
         <h1>Formulario</h1>
-        <form method="POST" action="procesar.php">
+        <form action="procesar.php" method="POST">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
 
