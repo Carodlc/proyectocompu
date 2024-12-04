@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Verificar credenciales
     if ($usuario === $usuario_valido && $contrasena === $contrasena_valida) {
         // Inicio de sesión exitoso, redirigir a index.html
-        header("Location: index.html");
+        header("Location: form.php");
         exit();
     } else {
         // Credenciales incorrectas
