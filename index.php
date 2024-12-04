@@ -50,15 +50,12 @@
         button:hover {
             background-color: #45a049;
         }
-        .results {
-            margin-top: 2rem;
+        .view-records-btn {
+            background-color: #007BFF;
+            color: white;
         }
-        .record {
-            background: #f9f9f9;
-            padding: 1rem;
-            margin-bottom: 1rem;
-            border: 1px solid #ddd;
-            border-radius: 4px;
+        .view-records-btn:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
@@ -77,6 +74,7 @@
 
             <button type="submit">Enviar</button>
         </form>
+        <button class="view-records-btn" onclick="window.location.href='procesar.php'">Ver Registros</button>
     </div>
 </body>
 </html>
